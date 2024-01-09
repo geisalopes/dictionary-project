@@ -1,4 +1,4 @@
-import React, { useSate, useState } from "react";
+import React, { useState, useState } from "react";
 import "./Dictionary.css";
 
 export default function Dictionary() {
