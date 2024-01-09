@@ -1,0 +1,41 @@
+{
+  "word": "sunset",
+  "phonetic": "'sən,sɛt",
+  "meanings": [
+    {
+      "partOfSpeech": "noun",
+      "definition": "the time in the evening at which the sun begins to fall below the horizon",
+      "example": null,
+      "synonyms": ["sundown"],
+      "antonyms": ["sunrise"]
+    },
+    {
+      "partOfSpeech": "noun",
+      "definition": "atmospheric phenomena accompanying the daily disappearance of the sun",
+      "example": null,
+      "synonyms": null,
+      "antonyms": null
+    },
+    {
+      "partOfSpeech": "adjective",
+      "definition": "of a declining industry or technology",
+      "example": "sunset industries",
+      "synonyms": null,
+      "antonyms": null
+    },
+    {
+      "partOfSpeech": "adjective",
+      "definition": "providing for termination",
+      "example": "a program with a sunset provision",
+      "synonyms": null,
+      "antonyms": null
+    },
+    {
+      "partOfSpeech": "noun",
+      "definition": "the daily event of the sun sinking below the horizon",
+      "example": null,
+      "synonyms": null,
+      "antonyms": null
+    }
+  ]
+}
