@@ -20,3 +20,13 @@
 h1 {
   margin: 0;
 }
+
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.App footer a {
+  color: #285172;
+}
