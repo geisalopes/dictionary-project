@@ -24,7 +24,7 @@ export default function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/geisalopes/react-weather-app"
+            href="https://github.com/geisalopes/dictionary-project"
             target="_blank"
             rel="noopener noreferrer"
           >
