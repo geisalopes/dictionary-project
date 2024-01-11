@@ -33,7 +33,7 @@ export default function Dictionary() {
           <input
             type="search"
             placeholder="Search Dictionary"
-            class="form-control search-input"
+            className="form-control search-input"
             onChange={handleKeywordChange}
           />
         </form>
