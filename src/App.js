@@ -14,21 +14,13 @@ export default function App() {
           <Dictionary />
         </main>
         <footer>
-          This project was coded by{" "}
-          <a
-            href="https://geisalopes.github.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Geisa Lopes
-          </a>{" "}
-          and is{" "}
+          This project was coded with ❤️ by{" "}
           <a
             href="https://github.com/geisalopes/dictionary-project"
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-sourced on Github
+            Geisa Lopes
           </a>
         </footer>
       </div>
