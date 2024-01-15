@@ -17,7 +17,8 @@ export default function App() {
           This project was coded with ❤️ by{" "}
           <a
             href="https://github.com/geisalopes/dictionary-project"
-            target="_blank"
+            target="_blank "
+            rel="noreferrer"
           >
             Geisa Lopes
           </a>
