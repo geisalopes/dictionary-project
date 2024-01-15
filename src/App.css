@@ -32,3 +32,8 @@ footer a {
   height: auto;
   margin-right: 10px;
 }
+
+.App h1 {
+  font-family: "Cookie", cursive;
+  font-size: 58px;
+}
