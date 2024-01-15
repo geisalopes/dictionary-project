@@ -18,7 +18,6 @@ export default function App() {
           <a
             href="https://github.com/geisalopes/dictionary-project"
             target="_blank"
-            rel="noopener noreferrer"
           >
             Geisa Lopes
           </a>
