@@ -1,13 +1,40 @@
+/* body {
+  background-image: url("./images/abstract-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 0;
+} */
+
 body {
+  position: relative;
+  margin: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/1475_generated.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5; /* Ajuste a opacidade conforme necessário (0.0 a 1.0) */
+  z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo do body */
+}
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
+} */
+/* 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */

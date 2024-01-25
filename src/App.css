@@ -1,23 +1,19 @@
-body {
+/* body {
   background: #f9f8fe;
-}
+} */
 
-footer {
-  font-size: 15px;
-  margin: 30px 0;
-  text-align: center;
-}
-
-footer a {
-  color: #285172;
-}
-
-.App {
+/* .App {
   align-items: center;
   display: flex;
   justify-content: center;
   margin: 0 auto;
   max-width: 960px;
+} */
+
+.App {
+  max-width: 650px;
+  margin: 100px auto;
+  min-height: 100vh;
 }
 
 .App-header {
@@ -36,4 +32,24 @@ footer a {
 .App h1 {
   font-family: "Cookie", cursive;
   font-size: 58px;
+}
+
+footer {
+  font-size: 15px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #285172;
+}
+
+@media (max-width: 900px) {
+  .App h1 {
+    font-size: 38px;
+  }
+
+  .App-logo {
+    max-width: 70px;
+  }
 }
