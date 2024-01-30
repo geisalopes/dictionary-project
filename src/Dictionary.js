@@ -23,7 +23,7 @@ export default function Dictionary(props) {
   }
 
   function handleErrorResponse() {
-    setError("Word not found. Try again.");
+    setError("Word not found, please try again.");
     setPhotos(null);
     setResults(null);
   }
