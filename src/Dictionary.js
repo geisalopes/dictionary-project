@@ -12,10 +12,24 @@ export default function Dictionary(props) {
   let [error, setError] = useState(null);
 
   function handleDictionaryResponse(response) {
-    setResults(response.data);
-    let imgApiKey = "bf12f0ob06f7acf048dt44a41aadd939";
-    let imgApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${imgApiKey}`;
-    axios.get(imgApiUrl).then(handleImageResponse);
+    // Checks if the API response contains valid information
+    if (
+      response.data &&
+      response.data.meanings &&
+      response.data.meanings.length > 0
+    ) {
+      setResults(response.data);
+      let imgApiKey = "bf12f0ob06f7acf048dt44a41aadd939";
+      let imgApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${imgApiKey}`;
+      axios.get(imgApiUrl).then(handleImageResponse);
+      // Clears the error message if the word is found
+      setError(null);
+    } else {
+      // If the response does not contain valid information, set an error message
+      setResults(null);
+      setError("Word not found, please try again.");
+      setPhotos(null);
+    }
   }
 
   function handleImageResponse(response) {
